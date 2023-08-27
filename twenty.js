@@ -47,6 +47,20 @@ function Data(detail){
 }
 form(Data);
 
+//asyncronus
+
+function sum(num1, num2){
+    
+    let i=num1+num2
+
+    
+
+    console.log(i+" " +"this is the answer")
+}
+
+sum(1,2)
+
+
 
 
 
