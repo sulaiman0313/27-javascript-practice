@@ -32,3 +32,22 @@ const intrSection=[...arr1, ...arr2];
 console.log(intrSection)
 
 
+//5th CallBack function
+
+function form(CallBack){
+    setTimeout(function(){
+        var detail="name : sulmean"
+
+        CallBack(detail);
+    },1000);
+    
+}
+function Data(detail){
+    console.log("recived data ==> ", detail)
+}
+form(Data);
+
+
+
+
+
