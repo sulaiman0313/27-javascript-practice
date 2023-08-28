@@ -99,6 +99,14 @@ for(let i in myDetail){
     console.log(i+" : "+myDetail[i])
 }
 
+//10th array/for of loop
+
+const t=["suleman","akhtar","konain",29,74,true]
+
+for(let m of t){
+    console.log(m)
+}
+
 
 
 
