@@ -31,7 +31,7 @@ const intrSection=[...arr1, ...arr2];
 
 console.log(intrSection)
 
-
+//async
 //5th CallBack function
 
 function form(CallBack){
@@ -47,7 +47,7 @@ function Data(detail){
 }
 form(Data);
 
-//asyncronus
+// 6th asyncronus
 
 function sum(num1, num2){
     
@@ -59,6 +59,20 @@ function sum(num1, num2){
 }
 
 sum(1,2)
+
+
+
+//7th
+
+function evennumber(){
+    for(let i=0; i<=20;i++){
+        if(i%2==0){
+            console.log(i)
+        }
+    }
+}
+evennumber();
+
 
 
 
