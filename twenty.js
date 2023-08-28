@@ -87,6 +87,21 @@ oddnumber();
 
 
 
+//9th (for in loop)
+
+const myDetail={
+    name:'suleman',
+    lst_name:'akhtar',
+    age:19,
+    country:'india'
+}
+for(let i in myDetail){
+    console.log(i+" : "+myDetail[i])
+}
+
+
+
+
 
 
 
