@@ -11,6 +11,9 @@ function main2(a,b,callback){
    console.log("hi...")
    callback();
    console.log(a+b)
+   
 }
 main2(2,2,main)
+
+console.log("end")
 
