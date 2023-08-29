@@ -107,6 +107,15 @@ for(let m of t){
     console.log(m)
 }
 
+//concatination
+
+let arrar1=["sulmean","akhter","konain","shifa"]
+
+let arrar2=["kaif","saif"]
+
+let arr3=arrar1.concat(arrar2)
+
+console.log(arr3)
 
 
 
