@@ -141,7 +141,6 @@ console.log(count)
 for(let i=0;i<dan.length;i++){
     console.log(dan[i])
 }
-
 //array element addition
 
 let numbers=[1,2]
@@ -152,6 +151,7 @@ for(let i=0;i<numbers.length;i++){
     
 }
 console.log(n)
+
 
 
 
