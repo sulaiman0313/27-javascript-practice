@@ -113,9 +113,20 @@ let arrar1=["sulmean","akhter","konain","shifa"]
 
 let arrar2=["kaif","saif"]
 
-let arr3=arrar1.concat(arrar2)
+let arr4=[24,26]
+
+let arr3=arrar1.concat(arrar2,arr4)
 
 console.log(arr3)
+
+
+// splice (to remove elements from array)
+
+let nam=["suleman","saif","shifa","konain","kaif"]
+
+nam.splice(0,4)
+console.log(nam)
+
 
 
 
