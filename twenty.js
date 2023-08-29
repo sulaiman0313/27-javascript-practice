@@ -152,7 +152,13 @@ for(let i=0;i<numbers.length;i++){
 }
 console.log(n)
 
+//array push()
 
+var nimals=["dogs","cats","lions","tiger"]
+
+nimals.push("donkey","elephant")
+
+console.log(nimals)
 
 
 
