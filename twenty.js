@@ -124,8 +124,34 @@ console.log(arr3)
 
 let nam=["suleman","saif","shifa","konain","kaif"]
 
-nam.splice(0,4)
+nam.splice(0,4) //(index,length no.)
 console.log(nam)
+
+
+//for each
+
+let dan=["sulmean","dan waste","robinson","smith","will"]
+count=0;
+dan.forEach((n)=>{
+    count++;
+})
+console.log(count)
+
+
+for(let i=0;i<dan.length;i++){
+    console.log(dan[i])
+}
+
+//array element addition
+
+let numbers=[1,2]
+let n=0;
+for(let i=0;i<numbers.length;i++){
+    
+    n+=numbers[i]
+    
+}
+console.log(n)
 
 
 
